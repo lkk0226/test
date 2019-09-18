@@ -2,11 +2,18 @@
 
 import unittest
 import HTMLTestRunner
-import os
+import os,sys
 import time
+
 
 current_path = os.getcwd()  # 当前文件路径
 print(current_path)
+# sys.path.append(current_path)
+# PATH = os.environ
+#
+# for key in PATH:
+#     print(key, PATH[key])
+
 case_path = os.path.join(current_path, "case")  # 用例路径
 print(case_path)
 # 存放报告路径

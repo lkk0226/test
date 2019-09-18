@@ -1,9 +1,9 @@
 # coding:utf-8
 
 import openpyxl
-from logFormatter import get_logger
+from common.logFormatter import get_logger
 
-logger=get_logger("F:\\pythonPjo\\testExcelCase\\log\\readExcel.txt")
+logger = get_logger("F:\\pythonPjo\\testExcelCase\\log\\readExcel.txt")
 
 class ReadExcel:
 

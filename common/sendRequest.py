@@ -2,8 +2,8 @@ import unittest
 import requests
 import json
 
-from readExcel import ReadExcel
-from writeExcel import WriteExcel
+from common.readExcel import ReadExcel
+from common.writeExcel import WriteExcel
 
 
 class SendRequests:
